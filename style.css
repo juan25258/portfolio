@@ -7,7 +7,7 @@
 }
 
 .body {
-    background-color: rgb(197, 34, 34);
+    background-color: rgb(135, 218, 233);
 }
 
 .img-fluid {
@@ -15,6 +15,12 @@
     height: auto;
 }
 
+footer {
+background-color:#000;
+padding: 10px 10px;
+color: rgb(231, 17, 17);
+margin-top: 10px;
+}
 
 
 
