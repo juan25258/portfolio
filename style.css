@@ -1,0 +1,29 @@
+
+
+.btn-primary {
+    box-sizing: border-box;
+    background:#000;
+    border-color: #000;
+}
+
+.body {
+    background-color: rgb(197, 34, 34);
+}
+
+.img-fluid {
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* esto seria para que sea responisivo:
+@media only screen and (max-width:800px) {
+    .contenedor{
+        display: block;
+        width: 100%;
+    }
+*/
