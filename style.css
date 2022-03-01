@@ -8,11 +8,68 @@
 
 .body {
     background-color: rgb(135, 218, 233);
+    margin: 0;
 }
 
 .img-fluid {
     width:100%;
     height: auto;
+}
+
+.background {
+    text-align: center;
+    background-size: cover;
+    padding: 10px;
+    height: 100vh;
+      
+}
+
+.home {
+    background-image: url("./imagenes/background.png");
+    filter: blur(8px);
+}
+
+.text-container {
+    color: #fff;
+    font-weight: bold;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 18%;
+    padding: 42px;
+    text-align: center;
+    font-family: Righteous;
+}
+
+
+.img-flex {
+    max-width: 330px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+    
+}
+
+
+.custom-section {
+    padding-top: 50px;
+    padding-left: 50px;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: Roboto;
 }
 
 footer {
