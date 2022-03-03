@@ -58,7 +58,7 @@
     padding-top: 50px;
     padding-left: 50px;
     display:flex;
-    flex-direction: row-reverse;
+    /*flex-direction: row-reverse;*/
 }
 
 .cb {
@@ -70,6 +70,12 @@
 
 .card-text {
     font-family: Roboto;
+    margin-left: 5em;
+    font-size: 80%;
+}
+
+.accordion-button{
+    background-color:rgb(43, 125, 233);
 }
 
 footer {
@@ -77,16 +83,21 @@ background-color:#000;
 padding: 10px 10px;
 color: rgb(231, 17, 17);
 margin-top: 10px;
+display: flex;
+text-align: center;
+}
+
+#redes>img {
+    width: 9%;
 }
 
 
 
 
 
-/* esto seria para que sea responisivo:
 @media only screen and (max-width:800px) {
-    .contenedor{
+    .body section{
         display: block;
         width: 100%;
     }
-*/
+}
