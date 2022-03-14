@@ -87,12 +87,29 @@ display: flex;
 text-align: center;
 }
 
-#redes>img {
+/*#redes>img {
     width: 5%;
     margin-left: 17px;
 }
+*/
 
+#info-detalles {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+}
 
+#imagen-facebook {
+    width: 10%
+}
+
+#imagen-instagram {
+    width: 10%;
+}
+
+#imagen-whatsapp {
+    width: 10%;
+}
 
 
 
