@@ -26,22 +26,17 @@
     background-size: cover;
     padding: 10px;
     height: 100vh;
-    z-index: 1;  
+    z-index: 1; 
+    background-image: url("./imagenes/background.png"); 
 }
 
-.home {
-    background-image: url("./imagenes/background.png");
-    /*filter: blur(8px);*/
-}
 
 .Perfil {
-    background-image: url("./imagenes/Foto\ de\ perfil.jpg");
-    max-width: 510px;
-    height: 400px;
-    width: 300px;
+    max-width: 350px;
+    margin-right: 80px;
     border-radius: 10px;
-    z-index: 10;
-    margin: 100px 60em 20em 60em;
+    float: right;
+   
 }
 
 
@@ -99,16 +94,22 @@ text-align: center;
     padding-left: 0;
 }
 
-#imagen-facebook {
-    width: 10%
+#redes-facebook {
+    width: 15%;
+    padding: 0px;
+    margin: 0px -50px;
 }
 
-#imagen-instagram {
-    width: 10%;
+#redes-instagram {
+    width: 15%;
+    padding: 0px;
+    margin: 0px -50px;
 }
 
-#imagen-whatsapp {
-    width: 10%;
+#redes-whatsapp {
+    width: 15%;
+    padding: 0px;
+    margin: 0px -50px;
 }
 
 
