@@ -30,14 +30,18 @@
     background-image: url("./imagenes/background.png"); 
 }
 
-
-.Perfil {
+#foto-perfil {
     max-width: 350px;
     margin-right: 80px;
     border-radius: 10px;
     float: right;
-   
-}
+   }
+
+   .dropdown {
+    float: right;
+    bottom: -424px;
+    right: -171px;
+   }
 
 
 
