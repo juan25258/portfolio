@@ -1,126 +1,98 @@
-
-
-.btn-primary {
-    box-sizing: border-box;
-    background:#000;
-    border-color: #000;
-}
-
-#ir-al-fin {
-    color: #ffffff;
-    text-decoration: none
-}
-
-.body {
-    background-color: rgb(135, 218, 233);
-    margin: 0;
-}
-
-.img-fluid {
-    width:100%;
-    height: auto;
-}
-
-.background {
-    text-align: center;
-    background-size: cover;
-    padding: 10px;
-    height: 100vh;
-    z-index: 1; 
-    background-image: url("./imagenes/background.png"); 
-}
-
-#foto-perfil {
-    max-width: 350px;
-    margin-right: 80px;
-    border-radius: 10px;
-    float: right;
-   }
-
-   .dropdown {
-    float: right;
-    bottom: -424px;
-    right: -171px;
-   }
-
-
-
-.img-flex {
-    max-width: 330px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 3px;
-    
-}
-
-
-.custom-section {
-    padding-top: 50px;
-    padding-left: 50px;
-    display:flex;
-    /*flex-direction: row-reverse;*/
-}
-
-.cb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.card-text {
-    font-family: Roboto;
-    margin-left: 5em;
-    font-size: 80%;
-}
-
-.accordion-button{
-    background-color:rgb(43, 125, 233);
-}
-
-footer {
-background-color:#000;
-padding: 10px 10px;
-color: rgb(231, 17, 17);
-margin-top: 10px;
+.contenedor{
 display: flex;
-text-align: center;
+justify-content: center;
 }
 
-/*#redes>img {
-    width: 5%;
-    margin-left: 17px;
-}
-*/
 
-#info-detalles {
-    list-style: none;
+.mat-card {
+    border-radius: 10px;
+    margin: 10px 10px ;
+    padding: 20px;
+    border-color: rgb(226, 52, 29) ;
+    position: absolute;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+
+div#imagen-de-fondo {
+    display: flex;
+    z-index: 1 ;
+}
+
+div#imagen-de-fondo img {
+    width: 100%;
+    border-radius: 32px 32px 0 0; 
+}
+
+div#info {
+    position: relative;
     display: inline-flex;
-    padding-left: 0;
+    /*border:groove;*/ 
+    border-radius: 0 0 32px 32px ;
+    bottom: 100px;
+    z-index: 100;
 }
 
-#redes-facebook {
-    width: 15%;
-    padding: 0px;
-    margin: 0px -50px;
+.fa-solid {
+    vertical-align:bottom
 }
-
-#redes-instagram {
-    width: 15%;
-    padding: 0px;
-    margin: 0px -50px;
-}
-
-#redes-whatsapp {
-    width: 15%;
-    padding: 0px;
-    margin: 0px -50px;
+.foto-de-perfil {
+    display: inline-flex;
+    border-radius: 20% ;
+    width: 140px;
+    height: 140px;
+    margin-top: 36px;
 }
 
 
+#info-data{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+
+}
+
+#imagen-AP {
+    width: 100px;
+    height: 50px;
+    border-radius: 8%;
+}
+
+#imagen-UNNE {
+    width: 70px;
+    border-radius: 8%;
+    margin: 10px;
+}
+
+.h2 , h2{
+    font-size:inherit;
+}
+  
+li {
+    list-style: none;
+}
+
+.info-action{
+    border-style: inherit;
+    border-radius: inherit;
+    padding: 0.5em;
+    background: lightblue;
+    position: relative;
+    top:-80px;
+}
+
+#progress{
+    padding-right: 10px;
+    font-size: 1rem;
+}
 
 @media only screen and (max-width:800px) {
-    .body section{
+    .contenedor{
         display: block;
         width: 100%;
     }
 }
+
